@@ -3,8 +3,8 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
 
-const studentRoutes = require('./routes/students');
-const teacherRoutes = require('./routes/teachers');
+const studentRoutes = require('./routes/students1');
+const teacherRoutes = require('./routes/teacher1');
 const assignmentRoutes = require('./routes/assignments');
 const feedbackRoutes = require('./routes/feedback');
 const courseCompletionRoutes = require('./routes/courseCompletion');

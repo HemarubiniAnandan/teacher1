@@ -6,7 +6,7 @@ const {
   createStudent,
   updateStudent,
   deleteStudent
-} = require('../controllers/studentsController');
+} = require('../controllers/students1Controller');
 
 router.get('/', getStudents);
 router.get('/:id', getStudentById);

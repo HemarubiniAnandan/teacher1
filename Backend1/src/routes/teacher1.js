@@ -5,7 +5,7 @@ const {
   addTeacher,
   updateTeacher,
   deleteTeacher
-} = require('../controllers/teachersController');
+} = require('../controllers/teacher1Controller');
 
 router.get('/', getTeachers);
 router.post('/', addTeacher);
